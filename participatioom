@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: #333; /* Property 1: Text color */
+            font-size: 16px; /* Property 2: Font size */
+            font-weight: 500; /* Property 3: Font weight */
+            border-bottom: 1px solid #ddd; /* Property 4: Border bottom */
+            padding: 8px; /* Property 5: Padding */
+            transition: background-color 0.3s; /* Property 6: Transition effect */
+        }
+
+        li:hover {
+            background-color: #f9f9f9; /* Property 7: Hover background color */
+        }
+    </style>
+    <title>2024 Bucket List</title>
+</head>
+<body>
+
+    <header>
+        <h1>My 2024 Bucket List</h1>
+    </header>
+
+    <section>
+        <ol>
+            <li>Travel to a new continent</li>
+            <li>Learn a new language</li>
+            <li>Start a personal blog</li>
+            <li>Read 30 books</li>
+            <li>Take a cooking class</li>
+            <li>Learn to play a musical instrument</li>
+            <li>Volunteer for a charitable cause</li>
+            <li>Complete a marathon</li>
+            <li>Attend a live concert</li>
+            <li>Master a new skill</li>
+            <li>Visit a UNESCO World Heritage Site</li>
+            <li>Take a digital detox weekend</li>
+        </ol>
+    </section>
+
+</body>
+</html>
